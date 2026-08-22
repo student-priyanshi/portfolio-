@@ -51,7 +51,7 @@ function SkillTag({ name }) {
 export default function Skills() {
   const proficiencies = [
     { name: 'JavaScript', level: 88 },
-    { name: 'React.js', level: 85 },
+    { name: 'React.js / Next.js', level: 85 },
     { name: 'Node.js / Express.js', level: 82 },
     { name: 'Python / Django', level: 80 },
     { name: 'MongoDB / PostgreSQL', level: 78 },
@@ -59,11 +59,11 @@ export default function Skills() {
   ]
 
   const categories = [
-    { title: 'Frontend', skills: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'] },
+    { title: 'Frontend', skills: ['React.js', 'Next.js', 'HTML5', 'CSS3', 'TypeScript', 'Responsive Web Design'] },
     { title: 'Backend', skills: ['Node.js', 'Express.js', 'Django', 'REST APIs'] },
-    { title: 'Database', skills: ['PostgreSQL', 'MySQL', 'MongoDB'] },
+    { title: 'Database', skills: ['MongoDB', 'PostgreSQL'] },
     { title: 'Languages', skills: ['JavaScript', 'Python', 'SQL'] },
-    { title: 'Tools', skills: ['Git', 'GitHub', 'VS Code', 'Postman'] },
+    { title: 'Version Control', skills: ['Git', 'GitHub'] }
   ]
 
   return (

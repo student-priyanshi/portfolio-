@@ -78,6 +78,30 @@ function ProjectCard({ project }) {
 export default function Projects() {
   const projects = [
     {
+      title: 'ShopNow',
+      category: 'Web App',
+      icon: '🛒',
+      gradient: ['#FFE4E6', '#FB7185'],
+      desc: 'A full-stack e-commerce platform with product browsing, cart, wishlist, Razorpay payment integration, and complete order management.',
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB'],
+      links: [
+        { label: 'GitHub', url: 'https://github.com/student-priyanshi/ShopNow', icon: '⌨️' },
+        { label: 'Live', url: 'https://shop-now-psi.vercel.app/', icon: '🌐' }
+      ]
+    },
+    {
+      title: 'IssueDashboard',
+      category: 'Web App',
+      icon: '📊',
+      gradient: ['#DBEAFE', '#3B82F6'],
+      desc: 'A web-based issue tracking and management application for reporting, monitoring, assigning, and resolving support tickets efficiently.',
+      tech: ['Python', 'Django'],
+      links: [
+        { label: 'GitHub', url: 'https://github.com/student-priyanshi/UCAAS-Issue-Dashboard', icon: '⌨️' },
+        { label: 'Live', url: 'https://supportdesk-crm.vercel.app/', icon: '🌐' }
+      ]
+    },
+    {
       title: 'SwiftMove',
       category: 'Web App',
       icon: '🚚',
@@ -181,18 +205,6 @@ export default function Projects() {
         { label: 'GitHub', url: 'https://github.com/student-priyanshi/Bookly', icon: '⌨️' }
       ]
     },
-    {
-  title: 'IssueDashboard',
-  category: 'Web App',
-  icon: '📊',
-  gradient: ['#DBEAFE', '#3B82F6'],
-  desc: 'A web-based issue tracking and management application for reporting, monitoring, assigning, and resolving support tickets efficiently.',
-  tech: ['Python', 'Django'],
-  links: [
-    { label: 'GitHub', url: 'https://github.com/student-priyanshi/UCAAS-Issue-Dashboard', icon: '⌨️' },
-    { label: 'Live', url: 'https://supportdesk-crm.vercel.app/', icon: '🌐' }
-  ]
-},
     {
       title: 'Restuarnt',
       category: 'Web App',

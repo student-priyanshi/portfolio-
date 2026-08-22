@@ -66,14 +66,17 @@ export default function Experience() {
   const jobs = [
     {
       role: 'Software Developer',
-      company: 'MCM BPO PVT LTD, Mumbai',
+      company: 'MCM BPO Pvt. Ltd., Mumbai',
       duration: 'Dec 2025\nJul 2026',
       type: 'Full-time',
       points: [
-        'Developed and maintained a lead management system using Django and PostgreSQL, managing 800+ leads monthly.',
-        'Built reusable REST APIs integrated with Twilio voice services for automated call scheduling.',
-        'Automated web application tasks with Selenium, reducing manual effort by 70%.',
-        'Collaborated on frontend features in React and optimized SQL queries for 30% faster data access.'
+        'Developed reusable React.js frontend components and integrated REST APIs for scalable and maintainable web applications.',
+        'Designed and developed responsive pages for the Twiching communication platform, including Team Chat, SMS/MMS, HD Video Meetings, and Voice Communication features using React.js.',
+        'Implemented responsive and user-friendly interfaces with cross-browser compatibility and consistent layouts across desktop, tablet, and mobile devices.',
+        'Collaborated with developers and designers to implement pixel-perfect UI designs, improve user experience, and convert business requirements into functional web interfaces.',
+        'Integrated REST APIs with frontend applications to retrieve, process, and display dynamic application data.',
+        'Worked with Python, Django, SQL, and frontend technologies to develop and maintain internal business applications.',
+        'Implemented CRUD operations, database integration, API handling, debugging, and feature enhancements for internal applications.'
       ]
     },
   ]
